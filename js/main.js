@@ -4,7 +4,14 @@ const subscanToken = `7bbf1bdfee98155fe8d631e4a3f147b8`;
 const subqlEndpoint = `https://api.subquery.network/sq/pparrott/prices-and-daily-liquidity-pool`;
 const subscanEndpoint = `https://polkadot.api.subscan.io/api/open/price_converter`;
 
-const tokenList = ['ACA', 'POLKABTC', 'RENBTC', 'DOT', 'XBTC', 'AUSD'];
+const tokenList = [
+    // 'ACA', 
+    // 'POLKABTC',
+    // 'RENBTC',
+    'DOT',
+    'XBTC',
+    'AUSD'
+];
 
 const button = document.getElementById('button');
 
